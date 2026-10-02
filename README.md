@@ -3,7 +3,7 @@
     <picture>
       <source media="(prefers-color-scheme: dark)" srcset="assets/header-dark.png">
       <source media="(prefers-color-scheme: light)" srcset="assets/header-light.png">
-      <img src="assets/header-dark.png" alt="Axiom Lift: Git for your AI context and prompts" width="860">
+      <img src="assets/header-dark.png" alt="Axiom Lift: Git for your AI context and prompts" width="600">
     </picture>
   </a>
 </p>
@@ -20,7 +20,7 @@ Axiom Lift keeps every decision, rule and fix from your AI coding sessions and h
 after <code>/compact</code>, in another tool, on another laptop.</p>
 
 <p align="center">
-  <img src="assets/demo.gif" alt="Claude Code compacts; Axiom Lift recovers the decision made before compaction" width="820">
+  <img src="assets/demo.gif" alt="Claude Code compacts; Axiom Lift recovers the decision made before compaction" width="520">
 </p>
 
 <p align="center">
