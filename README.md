@@ -48,17 +48,11 @@ You spend an hour agreeing the rules with your AI: the schema, the auth approach
 | Your **teammate's** AI picks up the work | It knows a different story |
 | You open a **new session** tomorrow | You explain the project again |
 
-## What Axiom Lift does
+## Your context, over a week
 
-```mermaid
-flowchart LR
-    A[Claude Code] --> M((Axiom Lift<br/>your project's memory))
-    B[Codex] --> M
-    C[OpenCode] --> M
-    M --> D[Next session,<br/>after /compact]
-    M --> E[Any tool]
-    M --> F[Your team's laptops]
-```
+<p align="center"><img src="assets/context-over-time.png" alt="Without Axiom Lift, decisions are scattered across Claude Code, Codex, OpenCode, teammates and notes, and lost at each compaction. With Axiom Lift, every decision goes into one project memory and comes back after /compact, in Codex, on a teammate's laptop." width="900"></p>
+
+## What Axiom Lift does
 
 - **Saved on the way in.** Decisions, rules and fixes are filed as you work. Nothing to write by hand.
 - **Fed back on the way out.** After `/compact`, in a new session or a different tool, your AI starts knowing what you
