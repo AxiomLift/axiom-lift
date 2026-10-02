@@ -1,0 +1,8 @@
+blank_issues_enabled: true
+contact_links:
+  - name: Website
+    url: https://www.axiomlift.ai/?utm_source=github&utm_medium=issues
+    about: Docs, plans and sign-in
+  - name: Email
+    url: mailto:hello@axiomlift.ai
+    about: Anything private (account, billing, data)
