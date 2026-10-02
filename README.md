@@ -43,23 +43,14 @@ Every decision you make with an AI lives somewhere different: in a Claude Code s
 Codex chat you opened when you hit a rate limit, in OpenCode, in your teammate's AI, in a `CLAUDE.md` you wrote once
 and never updated. None of it is anywhere your next session can see.
 
-<p align="center"><img src="assets/site-problem.png" alt="Every AI chat starts from zero: the detail gets squeezed out, you explain it all again, the AI undoes it" width="900"></p>
-
-| What happens | What you lose |
-|---|---|
-| The session **compacts** | The detail behind every decision you made |
-| You hit a **rate limit** and switch to Codex | Everything. It starts from zero |
-| Your **teammate's** AI picks up the work | It knows a different story |
-| You open a **new session** tomorrow | You explain the project again |
+<p align="center"><img src="assets/m-problem.png" alt="Compacted: the detail gets squeezed out. Repeated: you explain it all again. Undone: the AI undoes it." width="440"></p>
 
 ## Axiom Lift centralises it
 
 **One memory for your project, that every AI reads from.** Axiom Lift sits beside your tools, saves what they decide
 as they work, and hands back the few lines the next session needs: in any tool, on any machine.
 
-<p align="center"><img src="assets/site-centralise.png" alt="Store it once. Any AI reads it back: Claude Code, Codex and OpenCode in, Axiom in the middle, any AI continues" width="900"></p>
-
-<p align="center"><img src="assets/site-state.png" alt="Your AI remembers where you left off: decisions, changes and open items carried from state to state, picked up by Codex, a new Claude chat or another machine" width="900"></p>
+<p align="center"><img src="assets/m-centralise.png" alt="You work in Claude Code, Codex and OpenCode. Axiom stores every line: every prompt, decision, requirement, test and commit. Any AI continues: Claude, Codex, linked to GitHub." width="420"></p>
 
 - **Saved on the way in.** Decisions, rules and fixes are filed as you work. Nothing to write by hand.
 - **Fed back on the way out.** After `/compact`, in a new session or a different tool, your AI starts knowing what you
@@ -67,20 +58,19 @@ as they work, and hands back the few lines the next session needs: in any tool, 
 - **Across tools.** Start in Claude Code, carry on in Codex or OpenCode.
 - **Across your team, when you choose.** Share a decision or a project's state so nobody works it out twice.
 
-## Your project's memory, as a log
+## What it looks like
 
-Everything you and your AI worked out, kept in order. Change your mind and the old decision is struck through, not
-erased, with a link back to the moment it was said.
+A normal Codex chat. Nobody re-explained anything: the history came back from Axiom Lift. **Ninety tokens, not ninety
+thousand.**
 
-<p align="center"><img src="assets/site-memory-log.png" alt="Contexts, sessions and a year of AI work in the Axiom Lift app" width="900"></p>
-
-## One command. Then you just work.
-
-<p align="center"><img src="assets/site-how.png" alt="Paste one line; it keeps what matters; continue anywhere. A Codex chat gets the earlier fix back from Axiom over MCP: ninety tokens, not ninety thousand" width="900"></p>
+<p align="center"><img src="assets/m-codex.png" alt="Codex checks Axiom for earlier work on random sign-outs and gets back the discovery, the solution and a correction from saved history, then applies the fix" width="460"></p>
 
 ## Build with the people you already build with
 
-<p align="center"><img src="assets/site-team.png" alt="Share a decision, a project's state or a solved problem with your co-builders" width="900"></p>
+Share a decision, a project's state or a solved problem with the people you build with, in one step. Nothing is sent
+until you press it.
+
+<p align="center"><img src="assets/m-team.png" alt="You on GitHub, connected to co-builders, followers and people you follow" width="340"></p>
 
 ## Install
 
