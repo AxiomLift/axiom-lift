@@ -39,8 +39,8 @@ curl -fsSL "https://www.axiomlift.ai/install.sh?test=amnesia" | sh
 
 <table>
 <tr>
-<td width="300"><img src="assets/report-context.png" alt="A Context Loss report: 75% kept. Your AI forgot 9 of 36 decisions, rules and dead ends when it compacted. Each lost rule is listed." width="300"></td>
-<td>
+<td width="300" valign="top"><img src="assets/report-context.png" alt="A Context Loss report: 75% kept. Your AI forgot 9 of 36 decisions, rules and dead ends when it compacted. Each lost rule is listed." width="300"></td>
+<td valign="top">
 
 1. **It asks to use your Claude Code.** Say yes and your own Claude reads your sessions, in the background on your
    computer: no tools, nothing saved, a little of your allowance. Nothing is sent to an AI of ours.
