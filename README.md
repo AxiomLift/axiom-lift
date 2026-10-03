@@ -23,9 +23,34 @@ after <code>/compact</code>, in another tool, on another laptop.</p>
   <img src="assets/demo.gif" alt="Claude Code compacts; Axiom Lift recovers the decision made before compaction" width="520">
 </p>
 
-<p align="center">
-  <a href="#the-context-loss-test"><b>Test how much your AI forgets ↓</b></a> &nbsp;·&nbsp; <a href="#install"><b>Install in one command ↓</b></a>
-</p>
+---
+
+## Install
+
+**macOS / Linux** (needs Python 3):
+
+```sh
+curl -fsSL https://www.axiomlift.ai/install.sh | sh
+```
+
+**Windows** (PowerShell):
+
+```powershell
+irm https://www.axiomlift.ai/install.ps1 | iex
+```
+
+It asks you to sign up or sign in right there in the terminal, then connects the AI tools it finds on this computer.
+**The first 5 GB are free:** [axiomlift.ai/free](https://www.axiomlift.ai/free?utm_source=github&utm_medium=readme).
+On Windows the tests are `irm "https://www.axiomlift.ai/install.ps1?test=amnesia" | iex` (or `?test=stress`).
+The scripts are short and readable: [`install.sh`](install.sh) · [`install.ps1`](install.ps1) (copies of what the
+commands above download).
+
+| | |
+|---|---|
+| Leave a project out | `python3 ~/.axiom-context/src/axiom.py exclude /path/to/project` |
+| Uninstall | `python3 ~/.axiom-context/src/axiom.py uninstall` |
+
+<p align="center"><a href="#the-context-loss-test"><b>Or start with a test: how much does your AI forget? ↓</b></a></p>
 
 ---
 
@@ -117,31 +142,6 @@ Share a decision, a project's state or a solved problem with the people you buil
 until you press it.
 
 <p align="center"><img src="assets/m-team.png" alt="You on GitHub, connected to co-builders, followers and people you follow" width="340"></p>
-
-## Install
-
-**macOS / Linux** (needs Python 3):
-
-```sh
-curl -fsSL https://www.axiomlift.ai/install.sh | sh
-```
-
-**Windows** (PowerShell):
-
-```powershell
-irm https://www.axiomlift.ai/install.ps1 | iex
-```
-
-It asks you to sign up or sign in right there in the terminal, then connects the AI tools it finds on this computer.
-**The first 5 GB are free:** [axiomlift.ai/free](https://www.axiomlift.ai/free?utm_source=github&utm_medium=readme).
-On Windows the tests are `irm "https://www.axiomlift.ai/install.ps1?test=amnesia" | iex` (or `?test=stress`).
-The scripts are short and readable: [`install.sh`](install.sh) · [`install.ps1`](install.ps1) (copies of what the
-commands above download).
-
-| | |
-|---|---|
-| Leave a project out | `python3 ~/.axiom-context/src/axiom.py exclude /path/to/project` |
-| Uninstall | `python3 ~/.axiom-context/src/axiom.py uninstall` |
 
 ## Privacy
 
